@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[41,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "worldpreview"
+version = "${version}"
+displayName = "WorldPreview"
+authors = "Void_X_Walker, Waterpicker"
+description = '''
+Makes you reset block game fast
+'''
+logoFile = "assets/worldpreview/icon.png"
+
+[[dependencies.worldpreview]]
+modId = "forge"
+mandatory = true
+versionRange = "[41,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.worldpreview]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.worldpreview]]
+modId = "architectury"
+mandatory = true
+versionRange = "[5.14.84,)"
+ordering = "AFTER"
+side = "BOTH"

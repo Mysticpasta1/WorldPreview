@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "worldpreview",
+  "version": "${version}",
+  "name": "WorldPreview",
+  "description": "Makes you reset block game fast",
+  "authors": [
+    "Void_X_Walker"
+  ],
+  "contact": {
+    "repo": "https://github.com/VoidXWalker/WorldPreview"
+  },
+  "license": "MIT",
+  "icon": "assets/worldpreview/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.voidxwalker.worldpreview.WorldPreview"
+    ]
+  },
+  "accessWidener": "worldpreview.accesswidener",
+
+  "mixins": [
+    "worldpreview.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.0"
+  }
+}
